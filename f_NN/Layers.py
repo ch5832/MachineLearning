@@ -217,3 +217,7 @@ class CostLayer(Layer):
             return -y / y_pred + (1 - y) / (1 - y_pred)
         # noinspection PyTypeChecker
         return np.average(-y * np.log(np.maximum(y_pred, 1e-12)) - (1 - y) * np.log(np.maximum(1 - y_pred, 1e-12)))
+
+
+if __name__=="__main__":
+    pass
