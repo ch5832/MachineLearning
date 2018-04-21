@@ -443,3 +443,6 @@ if __name__ == '__main__':
         """
         conv_id = ConvIdentical([(conv_x.shape[1:], [2, 3, 3])], padding=1, stride=2)
         print(conv_id.activate(conv_x, conv_w, conv_b).eval())
+
+if __name__=="__main__":
+    pass

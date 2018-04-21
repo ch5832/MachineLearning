@@ -323,3 +323,7 @@ class NN(NaiveNN):
             plt.plot(xs, loss, label="Data Type: {}".format(key))
         plt.legend()
         plt.show()
+
+
+if __name__=="__main__":
+    pass

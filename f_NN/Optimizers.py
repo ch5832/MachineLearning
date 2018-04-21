@@ -109,3 +109,6 @@ class OptFactory:
             return optimizer
         except KeyError:
             raise NotImplementedError("Undefined Optimizer '{}' found".format(name))
+
+if __name__=="__main__":
+    pass
